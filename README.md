@@ -44,7 +44,9 @@ This repository contains a example of token-based authentication using Spring Bo
    ```
 
 5. Get authentication token : [http://localhost:8081/logIn](http://localhost:8081/logIn)
-6. Test authentication token(the token must be in the requests header with the name of JWT_TOKEN and it must start with Bearer_) : [http://localhost:8081/users/loadAll](http://localhost:8081/users/loadAll)
+ (the username and password must be sent in requests body)
+6. Test authentication token : [http://localhost:8081/users/loadAll](http://localhost:8081/users/loadAll)
+ (the token must be in the requests header with the name of JWT_TOKEN and it must start with Bearer_)
 
 ## Contributing
 
